@@ -19,6 +19,6 @@ int sum_arr(const int* begin, const int* end)
 	const int* pt;
 	int total = 0;
 	for (pt = begin; pt != end; pt++)
-		total = total + *py;
+		total = total + *pt;
 	return total;
 }

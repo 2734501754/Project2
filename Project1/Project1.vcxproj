@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -146,7 +146,13 @@
     <ClCompile Include="14.cpp" />
     <ClCompile Include="15.cpp" />
     <ClCompile Include="16.cpp" />
+    <ClCompile Include="17.cpp" />
+    <ClCompile Include="18.cpp" />
+    <ClCompile Include="19.cpp" />
     <ClCompile Include="2.cpp" />
+    <ClCompile Include="20.cpp" />
+    <ClCompile Include="22.cpp" />
+    <ClCompile Include="23.cpp" />
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
     <ClCompile Include="5.cpp" />
@@ -154,6 +160,9 @@
     <ClCompile Include="7.cpp" />
     <ClCompile Include="8.cpp" />
     <ClCompile Include="9.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coordin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

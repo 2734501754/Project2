@@ -9,8 +9,8 @@ struct free_throws
 };
 void display(const free_throws& ft);
 void set_pc(free_throws& ft);
-free_throws& accumulate(free_throws& target, const free_throws& source);
-int mai653n()
+/*const*/ free_throws & accumulate(free_throws & target, const free_throws & source);
+int mai234342n()
 {
 	free_throws one = { "Ifelsa Branch",13,14 };
 	free_throws two = { "Andor Knott",10,16 };
@@ -52,7 +52,7 @@ void set_pc(free_throws& ft)
 	else
 		ft.percent = 0;                                                                                                 //将0赋给临时变量,最终ft.percent内容不变(还是92.8571396)
 }
-free_throws& accumulate(free_throws& target, const free_throws& source)
+/*const*/ free_throws& accumulate(free_throws& target, const free_throws& source)
 {
 	target.attempts += source.attempts;
 	target.made += source.made;
